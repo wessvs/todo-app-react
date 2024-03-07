@@ -19,6 +19,21 @@ body{
     color: var(--neutral-100); 
 }
 
+.logo_group {
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+    height: 2rem;
+}
+
+.logo_img {
+    height: 2rem;
+    margin-right: 5px;
+    border: 4px solid #00FFAB;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 button {
     cursor: pointer;
 }
